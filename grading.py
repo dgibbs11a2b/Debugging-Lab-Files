@@ -45,7 +45,8 @@ else:
 
 for grade in grades:
     print("Exam: " + str(grade))
-
+#The average and grade should be based on the all the exams.  The  indentation here causes the last two print statements to get included in the loop.  Remove the indentation from that 
+#second and third print statements.
     print("Average: " + str(avg))
 
     print("Grade: " + letter_grade)
